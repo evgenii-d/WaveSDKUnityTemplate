@@ -1,6 +1,7 @@
 # Wave SDK Unity Template
 
 **Unity 2021.3.35f1** template project for **Wave SDK 3.2.0** with fixed compatibility issues.
+
 Tested on HTC Vive Focus Plus.
 
 References:
