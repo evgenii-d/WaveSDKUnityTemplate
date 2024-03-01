@@ -19,6 +19,10 @@
             <meta-data android:name="unityplayer.UnityActivity" android:value="true" />
             <meta-data android:name="unityplayer.SkipPermissionsDialog" android:value="true" />
         </activity>
+        <meta-data android:name="minWaveSDKVersion" android:value="1" />
+        <meta-data android:name="com.htc.vr.content.NumDoFHmd" android:value="6DoF"/>
+        <meta-data android:name="com.htc.vr.content.NumDoFController" android:value="6DoF"/>
+        <meta-data android:name="com.htc.vr.content.NumController" android:value="2"/>
     </application>
 
     <!-- <uses-permission android:name="android.permission.CAMERA" /> -->

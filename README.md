@@ -16,11 +16,13 @@ References:
 
 ### Android Manifest
 
-`AndroidManifest.xml` located under `Assets\WaveVR\Platform\Android\AndroidManifest.xml`
+`AndroidManifest.xml` located under `Assets\WaveVR\Platform\Android\AndroidManifest.xml`.
+
+Check out official docs - [Configure App Capabilities][4].
 
 ### Disable controller pairing
 
-To disable controller pairing pop-up menu, add this option to `AndroidManifest.xml`
+To disable controller pairing pop-up menu, add this option to `AndroidManifest.xml`.
 
 ```xml
 <meta-data android:name="no_controller_pairing" android:value="true" />
@@ -64,3 +66,4 @@ For example
 [1]: https://developer.vive.com/resources/vive-wave/download/archive/320
 [2]: https://github.com/evgenii-d/ViveWaveSDK
 [3]: https://hub.vive.com/storage/docs/en-us/UnityXR/UnityXRSdk.html
+[4]: https://hub.vive.com/storage/app/doc/en-us/ConfigureAppCapabilities.html
